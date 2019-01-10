@@ -1,5 +1,5 @@
 # udacity_nanodegrees
-List Udacity nanodegrees I've taken
+List Udacity nanodegrees I've taken.
 
 ### [Natural Language Processing (NLP) Nanodegree](/NLP_nanodegree)
 

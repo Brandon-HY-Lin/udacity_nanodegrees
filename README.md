@@ -1,10 +1,10 @@
 # udacity_nanodegrees
 List Udacity nanodegrees I've taken
 
-### Natural Language Processing (NLP) Nanodegree
+### [Natural Language Processing (NLP) Nanodegree](/NLP_nanodegree)
 
-### Computer Vision Nanodegree
+### [Computer Vision Nanodegree](/computer_vision_nanodegree)
 
-### Deep Learning Nanodegree
+### [Deep Learning Nanodegree](/deep_learning_nanodegree)
 
 ### Deep Reinforcement Learning Nanodegree

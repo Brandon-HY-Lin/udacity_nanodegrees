@@ -7,4 +7,4 @@ List Udacity nanodegrees I've taken.
 
 ### [Deep Learning Nanodegree](/deep_learning_nanodegree)
 
-### Deep Reinforcement Learning Nanodegree
+### [Deep Reinforcement Learning Nanodegree](/deep_reinforcement_learning_nanodegree)

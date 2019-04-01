@@ -8,10 +8,17 @@
 	- Framework: Unity and Pytorch
 	- Algorithm: DQN (Deep Q-Networks)
 
-3. [Continuous Control](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p2_continuous-control)
+2. [Continuous Control](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p2_continuous-control)
 	- Control multi-joint arms to pick balls.
 	- Framework: Unity and Pytorch
 	- Algorithm: DDPG (Deep Deterministic Policy Gradients) with PER (Prioritized Experience Replay)
+
+3. [Collaboration and Competition](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet)
+	- Control 2 table tennis players to play.
+	- Framework: Unity and Pytorch
+	- Algorithms
+		- Algorithm 1:  2 seperate DDPG agents. Each has its own PER buffer ([code](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet/DDPG)).
+		- Algorithm 2: [MADDPG (Multi-Agent DDPG)](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet/MADDPG)
 
 
 ## Labs:

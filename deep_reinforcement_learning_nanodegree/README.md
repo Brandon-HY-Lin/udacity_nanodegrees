@@ -48,3 +48,8 @@
 * [Physical Deception](https://github.com/Brandon-HY-Lin/physical-deception)
 	- Framework: OpenAI Gym and Pytorch
 	- Algorithm: MADDPG (Multi-Agent DDPG)
+
+
+* [Tic-Tac-Toe](https://github.com/Brandon-HY-Lin/udacity-alphazero-Tic-Tac-Toe)
+	- Framework: Pytorch
+	- Algorithm: AlphaZero

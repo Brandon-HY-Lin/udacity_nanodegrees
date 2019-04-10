@@ -6,22 +6,22 @@
 1. [Navigation](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p1_navigation)
 	- Purpose: Get rewards when pick up yellow bananna.
 	- Framework: Unity and Pytorch
-	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p1_navigation/Report.md)
 	- Algorithm: DQN (Deep Q-Networks)
+	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p1_navigation/Report.md)
 
 2. [Continuous Control](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p2_continuous-control)
 	- Purpose: Control multi-joint arms to pick balls.
 	- Framework: Unity and Pytorch
-	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p2_continuous-control/Report.md)
 	- Algorithm: DDPG (Deep Deterministic Policy Gradients) with PER (Prioritized Experience Replay)
+	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p2_continuous-control/Report.md)
 
 3. [Collaboration and Competition](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet)
 	- Purpose: Control 2 table tennis players to play.
 	- Framework: Unity and Pytorch
-	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p3_collab-compet/Report.md)
 	- Algorithms
 		- Algorithm 1:  2 seperate DDPG agents. Each has its own PER buffer ([code](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet/DDPG)).
 		- Algorithm 2: [MADDPG (Multi-Agent DDPG)](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/tree/master/p3_collab-compet/MADDPG)
+	- [Report](https://github.com/Brandon-HY-Lin/deep-reinforcement-learning/blob/master/p3_collab-compet/Report.md)
 
 
 ## Labs:

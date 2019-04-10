@@ -5,6 +5,6 @@ List Udacity nanodegrees I've taken.
 
 ### [Computer Vision Nanodegree](/computer_vision_nanodegree)
 
-### [Deep Learning Nanodegree](/deep_learning_nanodegree)
-
 ### [Deep Reinforcement Learning Nanodegree](/deep_reinforcement_learning_nanodegree)
+
+### [Deep Learning Nanodegree](/deep_learning_nanodegree)

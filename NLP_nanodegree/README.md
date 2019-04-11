@@ -8,15 +8,18 @@
 	- [Main Program](https://github.com/Brandon-HY-Lin/hmm-tagger/blob/master/HMM%20Tagger.ipynb)
 
 2. [Machine Translation](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone)
-	- Purpose: Translate French to English.
+	- Purpose: Translate English texts to French texts.
 	- Framework: Keras.
 	- Algorithm: Recursive Encoder-Decoder RNN.
+	- Dataset: Subset of [WMT](http://www.statmt.org/)
+	- [Report](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone/blob/master/Report.md)
 	- [Main Program](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone/blob/master/machine_translation.ipynb)
 
 3. [DNN Speech Recognizer](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone)
 	- Purpose: Implement UVI (User-Voice-Interface).
 	- Framework: Keras
 	- Algorithm: 2-Dimensional CNN + RNN + Dense Layer.
+	- Dataset: [LibriSpeech](http://www.openslr.org/12/)
 	- [Report](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone/blob/master/Report.md)
 	- [Main Program](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone/blob/master/vui_notebook.ipynb)
 

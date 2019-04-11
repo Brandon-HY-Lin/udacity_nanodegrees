@@ -3,22 +3,22 @@
 ## Projects
 1. [Part of Speech Tagging](https://github.com/Brandon-HY-Lin/hmm-tagger)
 	- Purpose: Tag verb, noun, etc. in sentences.
-	- [Main Program](https://github.com/Brandon-HY-Lin/hmm-tagger/blob/master/HMM%20Tagger.ipynb)
 	- Library: Pomegranate.
 	- Algorithm: HMM and Supervised Learning.
+	- [Main Program](https://github.com/Brandon-HY-Lin/hmm-tagger/blob/master/HMM%20Tagger.ipynb)
 
 2. [Machine Translation](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone)
 	- Purpose: Translate French to English.
-	- [Main Program](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone/blob/master/machine_translation.ipynb)
 	- Framework: Keras.
 	- Algorithm: Recursive Encoder-Decoder RNN.
+	- [Main Program](https://github.com/Brandon-HY-Lin/aind2-nlp-capstone/blob/master/machine_translation.ipynb)
 
 3. [DNN Speech Recognizer](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone)
 	- Purpose: Implement UVI (User-Voice-Interface).
-	- [Main Program](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone/blob/master/vui_notebook.ipynb)
 	- Framework: Keras
 	- Algorithm: 2-Dimensional CNN + RNN + Dense Layer.
-
+	- [Report](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone/blob/master/Report.md)
+	- [Main Program](https://github.com/Brandon-HY-Lin/AIND-VUI-Capstone/blob/master/vui_notebook.ipynb)
 
 ## Labs
 * Part 1: Introduction to Natural Language

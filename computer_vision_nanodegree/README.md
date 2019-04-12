@@ -12,6 +12,7 @@
 	- Purpose: Generate caption of a picture with the average BLEU-4 score of 0.517.
 	- Framework and Library: Pytorch and TorchVision.
 	- Algorithm: CNN + Batch-Norm + Data-Augment.
+	- [Report](https://github.com/Brandon-HY-Lin/CVND---Image-Captioning-Project/blob/master/Report.md)
 	- [Main Program](https://github.com/Brandon-HY-Lin/CVND---Image-Captioning-Project/blob/master/2_Training.ipynb)
 	- Dataset: [CoCo](http://cocodataset.org/#home) 2014
 

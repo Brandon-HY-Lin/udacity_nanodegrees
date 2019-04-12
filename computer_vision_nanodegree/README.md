@@ -5,6 +5,7 @@
 	- Purpose: Identify keypoints around eyes, mouth, heads, etc.
 	- Framework and Library: Pytorch and OpenCV.
 	- Algorithm: CNN + Batch-Norm.
+	- [Report](https://github.com/Brandon-HY-Lin/P1_Facial_Keypoints/blob/master/Report.md)
 	- [Main Program](https://github.com/Brandon-HY-Lin/P1_Facial_Keypoints/blob/master/3.%20Facial%20Keypoint%20Detection%2C%20Complete%20Pipeline.ipynb)
 	- Dataset: [YouTube Faces DB](https://www.cs.tau.ac.il/~wolf/ytfaces/)
 

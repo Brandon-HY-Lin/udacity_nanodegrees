@@ -42,7 +42,7 @@
 		- Key Concept:
 			- Bag Of Words: It is a statictis of corpus and ingnores the order of words. For example, "chicago bulls" might be treated as a city and an animal, rather than the basketball team.
 		- Key APIs:
-			- Pre-process + Vectorize: sklearn.feature_extraction.text.CountVectorizer().fit_transform(text)
+			- Pre-process + Vectorize + BOW: sklearn.feature_extraction.text.CountVectorizer().fit_transform(text)
 			- Split train/test set: sklearn.cross_validation.train_test_split()
 			- Naive Bayes: sklearn.naive_bayes.MultinomialNB().fit()
 			- F1 score, recall score, ...:

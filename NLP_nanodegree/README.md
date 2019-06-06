@@ -93,7 +93,20 @@
 	* [RNN Keras Lab](https://github.com/Brandon-HY-Lin/NLP-Exercises/blob/master/2.6-rnn-keras-lab/Deciphering%20Code%20with%20Character-Level%20RNN.ipynb)
 		- Purpose: Decipher strings encrypted with a certain cipher.
 		- Framework: Keras.
-		- Algorithm: GRU.
+		- Algorithm: Char-level RNN using GRU.
+		- Key APIs:
+			- Char-level Tokenize: keras.preprocessing.text.Tokenizer(char_level=True).fit_on_texts(text).texts_to_sequences(text)
+			- Padding: keras.preprocessing.sequence.pad_sequences(tokens, maxlen, padding='post')
+			- Keras:
+				- keras.models.Model
+				- keras.layers
+					- keras.layers.Input
+					- keras.layers.GRU
+					- keras.layers.Dense
+					- keras.layers.TimeDistributed
+					- keras.layers.Activation
+				- keras.optimizer.Adam
+				- keras.losses.sparse_categorical_crossentropy
 
 * Part 3: Communicating with Natural Language
 	* [Voice Data](https://github.com/Brandon-HY-Lin/AIND-VUI-Lab-Voice-Data)

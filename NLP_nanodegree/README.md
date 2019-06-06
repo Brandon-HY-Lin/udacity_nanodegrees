@@ -39,6 +39,8 @@
 		- Purpose: Classify spam email.
 		- Libraries: Pandas and Scikit-Learn.
 		- Algorithm: Apply naive Bayes to BOW (Bag of Words).
+		- Key Concept:
+			- Bag Of Words: It is a statictis of corpus and ingnores the order of words. For example, "chicago bulls" might be treated as a city and an animal, rather than the basketball team.
 		- Key APIs:
 			- Pre-process + Vectorize: sklearn.feature_extraction.text.CountVectorizer().fit_transform(text)
 			- Split train/test set: sklearn.cross_validation.train_test_split()

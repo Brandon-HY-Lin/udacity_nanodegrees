@@ -59,6 +59,10 @@
 		- Purpose: Classify text to a particular topic
 		- Libraries: Gensim and Pandas.
 		- Algorithm: LDA (Latent Dirichlet Allocation) using TF-IDF (Trem Frequency-Inverse Document Frequency).
+		- Key concept:
+			- TF-IDF:
+				- TF (Term-Frequencey): It is similar to BOW.
+				- IDF (Inverse Document Frequency): It show how rare a word is among documents.
 
 	* [Sentiment Analysis](https://github.com/Brandon-HY-Lin/NLP-Exercises/blob/master/2.3-sentiment-analysis/sentiment_analysis_udacity_workspace.ipynb)
 		- Purpose: Predict positive or negative sentiment upon a comment.

@@ -60,10 +60,27 @@
 		- Libraries: Gensim and Pandas.
 		- Algorithm: LDA (Latent Dirichlet Allocation) using TF-IDF (Trem Frequency-Inverse Document Frequency).
 		- Key concept:
-			- TF-IDF:
-				- TF (Term-Frequencey): It is similar to BOW.
-				- IDF (Inverse Document Frequency): It show how rare a word is among documents.
-
+			- TF-IDF: Consider a document containing 100 words wherein the word 'tiger' appears 3 times.
+				- TF:
+					- The term frequency (i.e., tf) for 'tiger' is then: TF = (3 / 100) = 0.03.
+				- IDF:
+					- Now, assume we have 10 million documents and the word 'tiger' appears in 1000 of these. Then, the inverse document frequency (i.e., idf) is calculated as: IDF = log(10,000,000 / 1,000) = 4.
+				- TF-IDF:
+					- Thus, the Tf-idf weight is the product of these quantities: TF-IDF = 0.03 * 4 = 0.12.
+		- Key APIs:
+			- Normalize and Tokenize: gensim.utils.simple_preprocess(text)
+			- Stopswords: gensim.parsing.preprocessing.STOPWORDS
+			- Lemmatize/Stem:
+				- Lemmatize: nltk.stem.WordNetLemmatizer().lemmatize(word)
+				- Stem: nltk.stem.SnowballStemmer().stem(word)
+			- Create Dictionary: gensim.corpora.Dictionary(docs)
+			- BOW/TF-IDF:
+				- BOW: bow_corpus = gensim.corpora.Dictionary(docs).doc2bow(text)
+				- TF-IDF: tfidf_corpus = gensim.models.TfidfModel(bow_corpus)
+			- LDA: 
+				- gensim.models.LdaMulticore(bow_corpus, num_topics)
+				- gensim.models.LdaMulticore(tfidf_corpus, num_topics)
+				
 	* [Sentiment Analysis](https://github.com/Brandon-HY-Lin/NLP-Exercises/blob/master/2.3-sentiment-analysis/sentiment_analysis_udacity_workspace.ipynb)
 		- Purpose: Predict positive or negative sentiment upon a comment.
 		- Libraries: Sklearn.

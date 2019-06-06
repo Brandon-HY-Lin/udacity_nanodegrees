@@ -28,11 +28,26 @@
 	* [Text Processing](https://github.com/Brandon-HY-Lin/AIND-NLP/blob/master/text_processing.ipynb)
 		- Purpose: Tokenize articles
 		- Libraries: Pandas and NLTK
+		- Key APIs:
+			- Tokenize: nltk.tokenize.word_tokenize(text)
+			- Stopwords: nltk.corpus.stopwords.words('english')
+			- Stem/Lemmatize:
+				- Stem: nltk.stem.PorterStemmer().stem(word)
+				- Lemmatize: nltk.stem.WordNetLemmatizer().lemmatize(word, pos='v')
 
 	* [Spam Classifier](https://github.com/Brandon-HY-Lin/NLP-Exercises/blob/master/1.5-spam-classifier/Bayesian_Inference.ipynb)
 		- Purpose: Classify spam email.
 		- Libraries: Pandas and Scikit-Learn.
 		- Algorithm: Apply naive Bayes to BOW (Bag of Words).
+		- Key APIs:
+			- Pre-process + Vectorize: sklearn.feature_extraction.text.CountVectorizer().fit_transform(text)
+			- Split train/test set: sklearn.cross_validation.train_test_split()
+			- Naive Bayes: sklearn.naive_bayes.MultinomialNB().fit()
+			- F1 score, recall score, ...:
+				- sklearn.metrics.f1_score()
+				- sklearn.metrics.accuracy_score()
+				- sklearn.metrics.precision_score()
+				- sklearn.metrics.recall_score()
 
 	* [IBM Bookworm](https://github.com/Brandon-HY-Lin/AIND-NLP-Bookworm)
 		- Purpose: A simple question-answering system built using IBM Watson's NLP services.

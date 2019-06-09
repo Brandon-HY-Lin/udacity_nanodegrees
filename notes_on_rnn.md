@@ -2,7 +2,7 @@
 
 # Frameworks
 
-### Pytorch
+## Pytorch
 
 #### Data format
 - data.shape = (batch_size, sequence_length, input_size)
@@ -43,3 +43,12 @@
   output = x
   final_output = x[:, :, :]
   ```
+
+
+## Keras
+#### Data format
+- The data format is same with PyTorch.
+- data.shape = (batch_size, sequence_length, input_size)
+  - batch_size: size of batch.
+  - sequence_length: the length of a sequence.
+  - input_size: dimension of input

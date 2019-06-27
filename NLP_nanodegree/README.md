@@ -74,6 +74,7 @@
 				- Lemmatize: nltk.stem.WordNetLemmatizer().lemmatize(word)
 				- Stem: nltk.stem.SnowballStemmer().stem(word)
 			- Create Dictionary: gensim.corpora.Dictionary(docs)
+			- Filter rare/common words: gensim.corpora.Dictionary(docs).filter_extrems()
 			- BOW/TF-IDF:
 				- BOW: bow_corpus = gensim.corpora.Dictionary(docs).doc2bow(text)
 				- TF-IDF: tfidf_corpus = gensim.models.TfidfModel(bow_corpus)
